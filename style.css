@@ -439,58 +439,60 @@ a {
 
 /* --------------------------MEDIA QUERIES --------------------------------- */
 
-@media (max-width: 768px) {
-  html {
-    font-size: 10%;
-  }
-
-  .vector11, .vector13 {
-    display: none;
-  }
-}
-
 @media (max-width: 900px) {
   html {
     font-size: 30%;
+  }
+
+  #hamburger-menu {
+    width: 40px;
+    height: 30px;
+    display: block;
+    border: none;
+    margin: 20px;
+    background: linear-gradient(
+      to bottom, 
+      #3E3C3C, #3E3C3C 10%, 
+      white 10%, white 33%, 
+      #3E3C3C 33%, #3E3C3C 43%,
+      white 43%, white 66%,
+      #3E3C3C 66%, #3E3C3C 76%,
+      white 76%, white 100%
+    );
+  }
+
+  #hamburger-menu:hover {
+    cursor: pointer;
+  }
+
+  .navbar-li-link {
+    display: none;
   }
 
   .line-4, .vector1, .vector7, .vector7-1, .vector8, .vector8-2, .vector9, .vector10, .vector12, .vector15, .vector16, .vector39, .vector40, .vector41, .vector42, .vector43 {
     display: none;
   }
 
-  .recent-works-row {
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(6, 1fr);
+  .hero-text-h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
   }
 
-  .recent-works-col-1 {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
+  .vector11, .vector13 {
+    display: none;
   }
 
-  .recent-works-col-2 {
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
+  .hero-text-h1 {
+    font-size: 4rem;
   }
 
-  .recent-works-col-3 {
-    grid-row: 3 / 4;
-    grid-column: 1 / 2;
-  }
-
-  .recent-works-col-4 {
-    grid-row: 4 / 5;
-    grid-column: 1 / 2;
-  }
-
-  .recent-works-col-5 {
-    grid-row: 5 / 6;
-    grid-column: 1 / 2;
-  }
-
-  .recent-works-col-6 {
-    grid-row: 6 / 7;
-    grid-column: 1 / 2;
+  .hero-text-title {
+    font-size: 2rem;
   }
 }
 
@@ -498,40 +500,7 @@ a {
   html {
     font-size: 50%;
   }
-
   .line-1, .line-2 , .line-3, .line-5, .vector14, .vector18, .vector19, .vector21, .vector21-1, .vector21-2, .vector21-3, .vector21-4, .vector21-5 {
     display: none;
   }
-
-  .recent-works-row {
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 3rem;
-    margin: 5rem 0;
-  }
-
-  .recent-works-col-3 {
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-  }
-
-  .recent-works-col-4 {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-  }
-
-  .recent-works-col-5 {
-    grid-row: 3 / 4;
-    grid-column: 1 / 2;
-  }
-
-  .recent-works-col-6 {
-    grid-row: 3 / 4;
-    grid-column: 2 / 3;
-  }
 }
-
-
-
-
-
