@@ -75,21 +75,21 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 50%;
+  flex-direction: column;
 }
 
 .social-media-icons {
   display: flex;
-  flex-direction: column;
-  font-size: 3.2rem;
+  font-size: 4rem;
   height: 30%;
-  justify-content: space-between;
-  margin-left: 2rem;
+  width: 100%;
+  order: 1;
+  justify-content: center;
 }
 
 .social-media-links {
-  width: 5rem;
-  height: 5rem;
-  fill: #fff;
+  color: #fff;
+  margin-right: 3rem;
 }
 
 .hero-text-box {
