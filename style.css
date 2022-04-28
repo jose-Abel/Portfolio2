@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Crete Round', serif;
+  font-family: 'Roboto', serif, sans-serif;
 }
 
 a {
@@ -71,6 +71,11 @@ a {
   flex-direction: column;
 }
 
+.social-media-ul {
+  list-style: none;
+  display: flex;
+}
+
 .social-media-icons {
   display: flex;
   font-size: 4rem;
@@ -121,6 +126,7 @@ a {
   position: absolute;
   bottom: 2rem;
   right: 1rem;
+  background-image: url("./images/sprite.svg#icon-Vector");
 }
 
 .vector2 {
@@ -492,6 +498,18 @@ a {
 @media (max-width: 768px) {
   html {
     font-size: 50%;
+  }
+
+  .vector3,
+  .vector5 {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .vector4,
+  .vector6 {
+    width: 20rem;
+    height: 20rem;
   }
 
   .vector11,

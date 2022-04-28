@@ -9,30 +9,40 @@
     <script src="https://kit.fontawesome.com/48d3392299.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-name">
-        <a href="https://github.com/jose-Abel"><p class="navbar-name-p">Jose Abel Ramirez Frontany</p></a>
+    <header>
+      <div class="navbar">
+        <div class="navbar-name">
+          <a href="https://github.com/jose-Abel"><p class="navbar-name-p">Jose Abel Ramirez Frontany</p></a>
+        </div>
+        <nav>
+          <ul class="navbar-ul" id="hamburger-menu">
+            <li class="navbar-li-link"><a href="#recent-works-id" class="navbar-a-link">Portfolio</a></li>
+            <li class="navbar-li-link"><a href="#about-me-section-id" class="navbar-a-link">About</a></li>
+            <li class="navbar-li-link"><a href="#contact-me-section-id" class="navbar-a-link">Contact <i class="far fa-envelope"></i></a></li>
+          </ul>
+        </nav>
       </div>
-
-      <ul class="navbar-ul" id="hamburger-menu">
-        <li class="navbar-li-link"><a href="#recent-works-id" class="navbar-a-link">Portfolio</a></li>
-        <li class="navbar-li-link"><a href="#about-me-section-id" class="navbar-a-link">About</a></li>
-        <li class="navbar-li-link"><a href="#contact-me-section-id" class="navbar-a-link">Contact <i class="far fa-envelope"></i></a></li>
-      </ul>
-    </nav>
+    </header>
 
     <section class="hero-section">
       <div class="hero-section-box">
         <div class="social-media-icons">
-
-          <a href="https://github.com/jose-Abel" class="social-media-links"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/jose-abel-ramirez-frontany-7674a842/" class="social-media-links"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100008206235156" class="social-media-links"><i class="fab fa-facebook"></i></a>
-
+          <ul class="social-media-ul">
+            <li class="social-media-li">
+              <a href="https://github.com/jose-Abel" class="social-media-links">
+              <i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-media-li">
+              <a href="https://www.linkedin.com/in/jose-abel-ramirez-frontany-7674a842/" class="social-media-links"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="social-media-li">
+              <a href="https://www.facebook.com/profile.php?id=100008206235156" class="social-media-links"><i class="fab fa-facebook"></i></a>
+            </li>
+          </ul>
         </div>
         <div class="hero-text-box">
           <h1 class="hero-text-h1">Hello there. <span class="hero-main-text-name">I'm Jose Abel</span></h1>
-          <p class="hero-text-title">I'm a Full Stack Web Developer</p>
+          <h2 class="hero-text-title">I'm a Full Stack Web Developer</h2>
           <p class="hero-text-p">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         </div>
       </div>
@@ -40,7 +50,7 @@
       <div class="hero-section-figures">
 
         <svg class="vector1">
-          <use xlink:href="images/sprite.svg#icon-Vector"></use>
+          <!-- <use xlink:href="images/sprite.svg#icon-Vector"></use> -->
         </svg>
 
         <svg class="vector2">
