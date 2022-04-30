@@ -467,6 +467,11 @@ a {
   font-size: 2rem;
   line-height: 2;
   margin-left: 5rem;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  color: #091E42;
 }
 
 .nelson-sakwa {
@@ -476,10 +481,12 @@ a {
 
 .main-work-text-skills-box {
   margin: 2.5rem 0;
+  list-style: none;
+  display: flex;
 }
 
 .skill {
-  border: 1px solid black;
+  border: 1px solid rgb(8, 2, 2);
   padding: 1.5rem 2.5rem;
   margin-right: 1rem;
 }
@@ -488,12 +495,11 @@ a {
   -webkit-border-radius: 1.2rem;
   -moz-border-radius: 1.2rem;
   border-radius: 1.2rem;
-  color: #ffae00;
-  font-family: Brush Script MT, serif, sans-serif;
+  color: #fff;
+  background-color: #ff6b00;
   font-size: 2.3rem;
   font-weight: 100;
   padding: 1rem 2rem;
-  background-color: #4e443e;
   border: solid #fff 0.1rem;
   text-decoration: none;
   display: inline-block;
@@ -529,36 +535,35 @@ a {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/social-media-app.png");
   background-size: cover;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   transition: 1.5s;
 }
 
 .recent-works-col-title {
   color: #fff;
   font-size: 3rem;
-  text-align: center;
-  margin-top: 1rem;
+  text-align: left;
+  margin: 1rem 0 0 2rem;
 }
 
 .recent-works-col-text {
   color: #fff;
   font-size: 1.7rem;
-  padding: 0.6rem 2.5rem;
+  width: 80%;
+  margin-left: 2rem;
+  text-align: left;
 }
 
 .recent-works-col-skills {
-  border: 2px solid #fff;
   padding: 1rem;
   margin-right: 1rem;
-  align-self: flex-end;
+  background: rgba(255, 255, 255, 0.24);
+  bottom: 1rem;
 }
 
 .card-button {
-  display: none;
   background-color: orangered;
   padding: 1rem 13.4rem 1rem 13rem;
-  position: absolute;
-  margin-top: 15.5rem;
   color: #fff;
   font-size: 2rem;
 }
@@ -581,8 +586,8 @@ a {
 }
 
 .recent-works-col-1:hover .card-button {
-  display: block;
   animation-duration: 1ms;
+  top: 14.5rem;
 }
 
 .recent-works-col-2 {
@@ -591,7 +596,7 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/blog-post-app.png");
   background-size: cover;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
 }
 
 .recent-works-col-2:hover {
@@ -614,6 +619,7 @@ a {
 .recent-works-col-2:hover .card-button {
   display: block;
   animation-duration: 1ms;
+  top: 14.5rem;
 }
 
 .recent-works-col-3 {
@@ -622,7 +628,7 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/crypto-tracker.png");
   background-size: cover;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
 }
 
 .recent-works-col-3:hover {
@@ -645,6 +651,7 @@ a {
 .recent-works-col-3:hover .card-button {
   display: block;
   animation-duration: 1ms;
+  top: 14.5rem;
 }
 
 .recent-works-col-4 {
@@ -653,7 +660,7 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/telegram-bot.png");
   background-size: cover;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
 }
 
 .recent-works-col-4:hover {
@@ -676,6 +683,7 @@ a {
 .recent-works-col-4:hover .card-button {
   display: block;
   animation-duration: 1ms;
+  top: 14.5rem;
 }
 
 .recent-works-col-5 {
@@ -684,7 +692,7 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/mapty-entertainment-tracker.png");
   background-size: cover;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
 }
 
 .recent-works-col-title-5 {
@@ -714,6 +722,7 @@ a {
 .recent-works-col-5:hover .card-button {
   display: block;
   animation-duration: 1ms;
+  top: 14.5rem;
 }
 
 .recent-works-col-6 {
@@ -722,7 +731,7 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/conference_website.png");
   background-size: cover;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
 }
 
 .recent-works-col-6:hover {
@@ -745,6 +754,7 @@ a {
 .recent-works-col-6:hover .card-button {
   display: block;
   animation-duration: 1ms;
+  top: 14.5rem;
 }
 
 .recent-works-skills-box {
@@ -752,6 +762,7 @@ a {
   justify-content: center;
   color: #fff;
   font-size: 2rem;
+  position: relative;
 }
 
 .about-me-section {
@@ -782,9 +793,13 @@ a {
 }
 
 .about-text-p {
-  font-size: 2rem;
-  line-height: 2;
+  line-height: 24px;
   margin-bottom: 5rem;
+  color: #f4f5f7;
+  font-size: 16px;
+  font-family: 'Inter', serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .get-resume-btn {
@@ -1061,6 +1076,7 @@ a {
   bottom: 9.5rem;
   stroke: rgb(0, 0, 0);
   stroke-width: 0.2px;
+
 }
 
 .about-vector46 {
@@ -1376,17 +1392,8 @@ a {
   }
 
   .card-button {
-    display: none;
     background-color: orangered;
     padding: 1rem 22rem 1rem 22rem;
-    position: absolute;
-    margin-top: 19rem;
-  }
-
-  .about-me-section-box {
-    display: flex;
-    flex-direction: column;
-    height: 100rem;
   }
 
   .about-section-text-box {
@@ -1394,14 +1401,22 @@ a {
     padding: 10rem 2rem 2rem 2rem;
   }
 
-  .about-text-p {
-    font-size: 4rem;
-    line-height: 6rem;
+  .about-me-section-box {
+    display: flex;
+    flex-direction: column;
   }
 
   .about-section-figures {
-    left: 30rem;
-    top: 30rem;
+    display: none;
+  }
+
+  .figures-for-small-screen {
+    background: url('./images/figure.png') no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 50vh;
+    align-self: flex-end;
+    margin-right: -2rem;
   }
 
   .about-me-skills {
