@@ -1496,6 +1496,10 @@ a {
     margin: 0;
   }
 
+  .about-me-skills {
+    align-items: center;
+  }
+
   .hr-about-me {
     margin: 2rem 5rem 5rem 5rem;
   }
