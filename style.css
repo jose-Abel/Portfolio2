@@ -126,7 +126,6 @@ a {
   position: absolute;
   bottom: 2rem;
   right: 1rem;
-  background-image: url("./images/sprite.svg#icon-Vector");
 }
 
 .vector2 {
@@ -562,7 +561,7 @@ a {
 
 .card-button {
   background-color: orangered;
-  padding: 1rem 13.4rem 1rem 13rem;
+  padding: 1rem 10rem 1rem 13rem;
   color: #fff;
   font-size: 2rem;
 }
@@ -656,14 +655,14 @@ a {
 .recent-works-col-4 {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/telegram-bot.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/nft-screenshot.png");
   background-size: cover;
   width: 100%;
   height: 40vh;
 }
 
 .recent-works-col-4:hover {
-  background: url("images/telegram-bot.png");
+  background: url("images/nft-screenshot.png");
   background-size: cover;
 }
 
@@ -688,7 +687,7 @@ a {
 .recent-works-col-5 {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/mapty-entertainment-tracker.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/expensify-app.png");
   background-size: cover;
   width: 100%;
   height: 40vh;
@@ -702,7 +701,7 @@ a {
 }
 
 .recent-works-col-5:hover {
-  background: url("images/mapty-entertainment-tracker.png");
+  background: url("images/expensify-app.png");
   background-size: cover;
 }
 
@@ -1119,7 +1118,7 @@ a {
   display: flex;
   color: #fff;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .about-me-ul {
@@ -1344,6 +1343,7 @@ a {
 
   .main-work-text-skills-box {
     font-size: 2rem;
+    text-align: center;
   }
 
   .main-work-box {
@@ -1393,7 +1393,7 @@ a {
 
   .card-button {
     background-color: orangered;
-    padding: 1rem 22rem 1rem 22rem;
+    padding: 1rem auto;
   }
 
   .about-section-text-box {
@@ -1440,6 +1440,68 @@ a {
   .about-me-li {
     font-size: 3rem;
     margin: 4rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 30%;
+  }
+
+  .recent-works-title {
+    margin: 0 0 4rem 0;
+  }
+
+  .skill {
+    padding: 1.5rem;
+  }
+
+  .main-work-text-box {
+    align-items: center;
+  }
+
+  .main-work-image {
+    height: 20vh;
+  }
+
+  .main-work-text-title {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+
+  .main-work-text-area {
+    font-size: 2rem;
+  }
+
+  .see-project-button {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .recent-works-col-title {
+    font-size: 4rem;
+  }
+
+  .recent-works-col-text {
+    display: none;
+  }
+
+  .about-section-text-box {
+    height: 70vh;
+    padding: 0 2rem;
+  }
+
+  .about-me-section-box {
+    margin: 0;
+  }
+
+  .about-me-skills {
+    align-items: center;
+  }
+
+  .hr-about-me {
+    margin: 2rem 5rem 5rem 5rem;
   }
 }
 
