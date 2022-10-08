@@ -1171,6 +1171,7 @@ a {
 .contact-me-form {
   width: 50%;
   font-size: 5rem;
+  flex-direction: column;
 }
 
 .form-input {
@@ -1205,9 +1206,8 @@ a {
   font-family: inherit;
   font-size: 2rem;
   width: 80%;
-  height: 50%;
+  height: 10rem;
   padding: 1rem 0 0 1rem;
-  
 }
 
 .form-text-area:focus {
@@ -1220,12 +1220,12 @@ a {
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
-  color: #FFFFFF;
-  font-family: Verdana;
+  color: #fff;
+  font-family: Verdana 'Roboto', serif, sans-serif;
   font-size: 15px;
   font-weight: 100;
   padding: 15px;
-  background-color: #F55800;
+  background-color: #f55800;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -1233,7 +1233,7 @@ a {
 }
 
 .contact-me-form-button:hover {
-  background: #FF9152;
+  background: #ff9152;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -1248,12 +1248,6 @@ a {
   margin: 0 10rem;
   display: block;
   margin-bottom: 2rem;
-}
-
-.social-media-icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .footer-icon {
@@ -1612,7 +1606,6 @@ a {
     margin: 2rem 5rem 5rem 5rem;
   }
 }
-
 
 @media (max-width: 1200px) {
   html {
