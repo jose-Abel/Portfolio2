@@ -1153,6 +1153,106 @@ a {
   border-radius: 50%;
 }
 
+.contact-me-section {
+  padding-bottom: 20rem;
+}
+
+.contact-me-section-box {
+  display: flex;
+  margin-top: 10rem;
+}
+
+.contact-me-text {
+  font-size: 3.5rem;
+  padding: 0 10rem;
+  width: 50%;
+}
+
+.contact-me-form {
+  width: 50%;
+  font-size: 5rem;
+}
+
+.form-input {
+  width: 40%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-family: inherit;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+#form-input-email {
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-family: inherit;
+}
+
+#form-input-email:focus {
+  outline: none;
+}
+
+.form-text-area {
+  font-family: inherit;
+  font-size: 2rem;
+  width: 80%;
+  height: 50%;
+}
+
+.contact-me-form-button {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #F55800;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-me-form-button:hover {
+  background: #FF9152;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+.footer {
+  margin-bottom: 3rem;
+}
+
+.hr-footer {
+  margin: 0 10rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-icon {
+  margin-right: 2rem;
+  color: black;
+}
+
 @media (max-width: 900px) {
   html {
     font-size: 30%;
@@ -1505,6 +1605,7 @@ a {
   }
 }
 
+
 @media (max-width: 1200px) {
   html {
     font-size: 50%;
@@ -1551,5 +1652,28 @@ a {
   .recent-works-col-6 {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
+  }
+
+  .about-me-skills {
+    align-items: center;
+  }
+
+  .contact-me-section-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-me-text {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+
+  .contact-me-form {
+    margin-top: 5rem;
+  }
+
+  .form-text-area {
+    width: 80%;
+    height: 10rem;
   }
 }
