@@ -1206,6 +1206,14 @@ a {
   font-size: 2rem;
   width: 80%;
   height: 50%;
+  padding: 1rem 0 0 1rem;
+  
+}
+
+.form-text-area:focus {
+  background-color: transparent;
+  resize: none;
+  outline: none;
 }
 
 .contact-me-form-button {

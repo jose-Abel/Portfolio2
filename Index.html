@@ -447,14 +447,14 @@
 
         <p class="contact-me-text">I'm always interested in hearing about new projects, so if you'd liked to chat please get in touch.</p>
 
-        <form class="contact-me-form">
+        <form class="contact-me-form" name="contact" method="POST" data-netlify="true">
           <input type="text" class="form-input" name="first-name" placeholder="First Name">
           
           <input type="text" class="form-input" name="last-name" placeholder="Last Name">
  
           <input type="text" id="form-input-email" name="email" placeholder="Email">
 
-          <textarea class="form-text-area"></textarea>
+          <textarea class="form-text-area" name="message"></textarea>
 
           <button type="submit" class="contact-me-form-button" name="submit" value="Submit">Get in touch</button>
 
