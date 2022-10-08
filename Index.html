@@ -205,12 +205,14 @@
             <li class="skill">Ruby</li>
             <li class="skill">Rails</li>
           </ul>
-          <a class="see-project-button" href="https://lifestyle-articles-jose-abel.herokuapp.com/">See Project</a>
+          <a class="see-project-button" href="https://lifestyle-articles-jose-abel.herokuapp.com/"> Live Version Website </a>
+
+          <a class="see-project-button" href="https://github.com/jose-Abel/lifestyle-articles-rails-capstone">See the Code</a>
         </div>
 
       </div>
 
-      <div class="recent-works-row">
+      <div id="recent-works-rows" class="recent-works-row">
 
         <div class="recent-works-col recent-works-col-1">
           <h3 class="recent-works-col-title">Social Media App</h3>
@@ -222,7 +224,7 @@
             <span class="recent-works-col-skills">CSS</span>
             <span class="recent-works-col-skills">RAILS</span>
           </div>
-          <a class="card-button" href="https://guillain-jose-social-media-app.herokuapp.com">See Project</a>
+          <a class="card-button" href="#social-media-popup">More Info</a>
         </div>
 
         <div class="recent-works-col recent-works-col-2">
@@ -233,7 +235,7 @@
             <span class="recent-works-col-skills">CSS</span>
             <span class="recent-works-col-skills">RAILS</span>
           </div>
-          <a class="card-button" href="https://alpha-blog-jose-abel.herokuapp.com/">See Project</a>
+          <a class="card-button" href="#blog-post-app">More Info</a>
         </div>
 
         <div class="recent-works-col recent-works-col-3">
@@ -244,7 +246,7 @@
             <span class="recent-works-col-skills">CSS</span>
             <span class="recent-works-col-skills">RAILS</span>
           </div>
-          <a class="card-button" href="https://jose-abel-finance-tracker.herokuapp.com">See Project</a>
+          <a class="card-button" href="#crypto-tracker">More Info</a>
         </div>
 
         <div class="recent-works-col recent-works-col-4">
@@ -254,7 +256,7 @@
             <span class="recent-works-col-skills">PYTHON</span>
             <span class="recent-works-col-skills">SOLIDITY</span>
           </div>
-          <a class="card-button" href="https://testnets.opensea.io/assets/0xf6c15a0e73c362f99c47e52baefc1131e09dcf9d/0">See Project</a>
+          <a class="card-button" href="#nft-ethereum">More Info</a>
         </div>
 
         <div class="recent-works-col recent-works-col-5">
@@ -265,17 +267,19 @@
             <span class="recent-works-col-skills">CSS</span>
             <span class="recent-works-col-skills">JAVASCRIPT</span>
           </div>
-          <a class="card-button" href="https://jose-abel-budgety.netlify.app/">See Project</a>
+          <a class="card-button" href="#expensify-app">More Info</a>
         </div>
 
         <div class="recent-works-col recent-works-col-6">
-          <h3 class="recent-works-col-title">Conference Page</h3>
-          <p class="recent-works-col-text">A conference page website, created with 3 different webpages, which are: the main page, the about page and the tickets sales page.</p>
+          <h3 class="recent-works-col-title">Rent Ur Tech</h3>
+          <p class="recent-works-col-text"> 
+            RentUrTech is the front-end of a full stack project. It allows users to reserve a specific tech for a set amount of time.
+          </p>
           <div class="recent-works-skills-box">
-            <span class="recent-works-col-skills">HTML</span>
-            <span class="recent-works-col-skills">CSS</span>
+            <span class="recent-works-col-skills">React</span>
+            <span class="recent-works-col-skills">Redux</span>
           </div>
-          <a class="card-button" href="https://jose-abel-conference-page.netlify.app/">See Project</a>
+          <a class="card-button" href="#rent-ur-tech">More Info</a>
         </div>
 
       </div>
@@ -475,5 +479,157 @@
       </div>
 
     </footer>
+
+    <div id="social-media-popup" class="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+
+          <img src="images/social-media-app2.png" alt="Project photo" class="popup__img">
+
+          <img src="images/social-media-app.png" alt="Project photo" class="popup__img">
+
+        </div>
+
+        <div class="popup__right">
+          <a href="#recent-works-rows" class="popup__close">&times;</a>
+
+          <h2 class="popup__heading">Social Media App</h2>
+
+          <p class="popup__text">
+            Social media web app that has the entities of Users, Posts, Comments, Likes, Friendships associations.
+          </p>
+
+          <a href="https://github.com/jose-Abel/ror-social-scaffold" class="contact-me-form-button popup__button">See the code</a>
+
+          <a href="https://guillain-jose-social-media-app.herokuapp.com" class="contact-me-form-button popup__button">Check the live-version website</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="blog-post-app" class="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+
+          <img src="images/blog-post-app.png" alt="Project photo" class="popup__img">
+
+          <img src="images/blog-post-app2.png" alt="Project photo" class="popup__img">
+
+        </div>
+
+        <div class="popup__right">
+          <a href="#recent-works-rows" class="popup__close">&times;</a>
+
+          <h2 class="popup__heading">Blog Post Web App</h2>
+
+          <p class="popup__text">
+            Blog post web app where users can write, edit or delete articles. It has entities of Users, Articles and Categories.
+          </p>
+
+          <a href="https://github.com/jose-Abel/alpha-blog-app" class="contact-me-form-button popup__button">See the code</a>
+
+          <a href="https://alpha-blog-jose-abel.herokuapp.com/" class="contact-me-form-button popup__button">Check the live-version website</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="crypto-tracker" class="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+
+          <img src="images/crypto-tracker2.png" alt="Project photo" class="popup__img">
+
+          <img src="images/crypto-tracker.png" alt="Project photo" class="popup__img">
+
+        </div>
+
+        <div class="popup__right">
+          <a href="#recent-works-rows" class="popup__close">&times;</a>
+
+          <h2 class="popup__heading">Crypto Tracker</h2>
+
+          <p class="popup__text">
+            Social stocks tracking web app where users can follow the crypto's they like and follow their friends to see the crypto's their friend likes.
+          </p>
+
+          <a href="https://github.com/jose-Abel/finance-tracker" class="contact-me-form-button popup__button">See the code</a>
+
+          <a href="https://jose-abel-finance-tracker.herokuapp.com" class="contact-me-form-button popup__button">Check the live-version website</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="nft-ethereum" class="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+
+          <img src="images/nft-screenshot.png" alt="Project photo" class="popup__img">
+
+        </div>
+
+        <div class="popup__right">
+          <a href="#recent-works-rows" class="popup__close">&times;</a>
+
+          <h2 class="popup__heading">NFT on Ethereum Rinkeby Test Network</h2>
+
+          <p class="popup__text">
+            NFT built on the Ethereum Rinkeby Test Network and uploaded to the testnet Opensea market.
+          </p>
+
+          <a href="https://github.com/jose-Abel/Ethereum-NFT" class="contact-me-form-button popup__button">See the code</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="expensify-app" class="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+
+          <img src="images/expensify-app.png" alt="Project photo" class="popup__img">
+
+          <img src="images/expensify-app2.png" alt="Project photo" class="popup__img">
+
+        </div>
+
+        <div class="popup__right">
+          <a href="#recent-works-rows" class="popup__close">&times;</a>
+
+          <h2 class="popup__heading">Expensify App</h2>
+
+          <p class="popup__text">
+            Website that helps you keep organize in your incomes and expenses by making the calculations and displaying the percentages made with JavaScript.
+          </p>
+
+          <a href="https://github.com/jose-Abel/budgety" class="contact-me-form-button popup__button">See the code</a>
+
+          <a href="https://jose-abel-budgety.netlify.app/" class="contact-me-form-button popup__button">Check the live-version website</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="rent-ur-tech" class="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+
+          <img src="images/rent-ur-tech2.png" alt="Project photo" class="popup__img">
+
+          <img src="images//rent-ur-tech.png" alt="Project photo" class="popup__img">
+
+        </div>
+
+        <div class="popup__right">
+          <a href="#recent-works-rows" class="popup__close">&times;</a>
+
+          <h2 class="popup__heading">Rent Ur Tech</h2>
+
+          <p class="popup__text">
+            RentUrTech is the front-end of a full stack project. It allows users to reserve a specific tech for a set amount of time.
+          </p>
+
+          <a href="https://github.com/Final-Capstone-Elite-Group/RentUrTechFrontend" class="contact-me-form-button popup__button">See the code</a>
+
+          <a href="https://renturtech.netlify.app//" class="contact-me-form-button popup__button">Check the live-version website</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
