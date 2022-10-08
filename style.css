@@ -1344,6 +1344,22 @@ a {
   color: #f55800;
 }
 
+.popup__close-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.popup:target > .popup__close-bg {
+  display: block;
+}
+
+.popup:target > .popup__close {
+  display: block;
+}
+
 @media (max-width: 900px) {
   html {
     font-size: 30%;
